@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f2f2f2;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:1200px;
+    height:700px;
+
+    background:linear-gradient(
+        to right,
+        #ffc800 60%,
+        #fff5dc 40%
+    );
+    border-radius:25px;
+    position:relative;
+    overflow:hidden;
+}
+
+.logo{
+    width:150px;
+    position:absolute;
+    top:30px;
+    left:40px;
+}
+
+.menu{
+    position:absolute;
+    top:40px;
+    right:40px;
+}
+
+.menu span{
+    display:block;
+    width:35px;
+    height:3px;
+    background:black;
+    margin:8px 0;
+}
+
+.content{
+    width:420px;
+    position:absolute;
+    left:70px;
+    top:180px;
+}
+
+.small-title{
+    letter-spacing:8px;
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+h1{
+    font-size:100px;
+    font-weight:650;
+    margin-bottom:30px;
+}
+
+.description{
+    font-size:12px;
+    line-height:12px;
+    color:#444;
+}
+
+.page{
+    display:flex;
+    align-items:center;
+    margin-top:55px;
+}
+
+.line{
+    width:70px;
+    height:4px;
+    background:black;
+    margin-right:25px;
+}
+
+.page span{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.pikachu{
+    width:200px;
+    position:absolute;
+    right:270px;
+    top:150px;
+}
+
+.dots{
+
+    position:absolute;
+    right:40px;
+    top:300px;
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.dots span{
+
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    background:#ffd85c;
+}
+
+.dots .active{
+    background:black;
+}
+
+.pokeball{
+    width:200px;
+    opacity:0.12;
+    position:absolute;
+    left:20px;
+    bottom:-20px;
+}
